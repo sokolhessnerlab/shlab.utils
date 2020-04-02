@@ -21,7 +21,7 @@ source_directory <- function(dir_name,
 		dir_name, 
 		full.names = TRUE, 
 		pattern = "*.R$", 
-		recursive = nested
+		recursive = isTRUE(nested)
 	)
 
 	if (!length(files) && show_warnings) {
@@ -37,5 +37,5 @@ source_directory <- function(dir_name,
 	}
 
 	return(invisible(NULL))
-	
+
 }
