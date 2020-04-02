@@ -18,4 +18,5 @@ source_directory(dir_name, verbose = FALSE, show_warnings = TRUE)
 }
 \examples{
 source_directory("src")
+
 }

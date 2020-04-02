@@ -8,6 +8,8 @@
 #' 
 #' @examples
 #' source_directory("src")
+#'
+#' @export
 source_directory <- function(dir_name, verbose = FALSE, show_warnings = TRUE) {
 	
 	files <- list.files(dir_name, full.names = TRUE, pattern = "*.R$")
