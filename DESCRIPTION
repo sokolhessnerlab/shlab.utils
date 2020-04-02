@@ -1,0 +1,14 @@
+Package: shlab.utils
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Ari",
+           family = "Dyckovsky",
+           role = c("aut", "cre"),
+           email = "ari.dyckovsky@du.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This is an R-based utility package for the Sokol-Hessner Lab at University of Denver.
+License: What license it uses
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
