@@ -4,10 +4,17 @@
 \alias{source_directory}
 \title{Source R Files in Directory}
 \usage{
-source_directory(dir_name, verbose = FALSE, show_warnings = TRUE)
+source_directory(
+  dir_name,
+  nested = FALSE,
+  verbose = FALSE,
+  show_warnings = TRUE
+)
 }
 \arguments{
 \item{dir_name}{String name for directory within current working directory.}
+
+\item{nested}{Recursively source files in subdirectories? Defaults to FALSE.}
 
 \item{verbose}{Produce verbose output? Defaults to FALSE.}
 
@@ -18,5 +25,6 @@ source_directory(dir_name, verbose = FALSE, show_warnings = TRUE)
 }
 \examples{
 source_directory("src")
+source_directory("src", verbose = TRUE, nested = TRUE)
 
 }
