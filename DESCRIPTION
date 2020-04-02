@@ -1,12 +1,10 @@
 Package: shlab.utils
 Title: Sokol-Hessner Lab utilties for R.
-Version: 0.0.0.9000
-Authors@R: 
-    person(given = "Ari",
-           family = "Dyckovsky",
-           role = c("aut", "cre"),
-           email = "ari.dyckovsky@du.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+Version: 0.0.1
+Authors@R: as.person(c( 
+		"Ari Dyckovsky <ari.dyckovsky@du.edu> [aut, cre]",
+		"Peter Sokol-Hessneer <peter.sokol-hessner@du.edu> [aut]"
+	))
 Description: This is an R-based utility package for the Sokol-Hessner Lab at University of Denver.
 License: What license it uses
 Encoding: UTF-8
